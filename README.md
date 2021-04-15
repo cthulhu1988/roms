@@ -1,4 +1,6 @@
 # roms
 
-should have named this folder roms
+Game roms from various platforms. 
+
+
 

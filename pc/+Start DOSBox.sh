@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[[ ! -n "$(aconnect -o | grep -e TiMidity -e FluidSynth)" ]] && needs_synth=""
+[[ ! -n "$(aconnect -o | grep -e TiMidity -e FluidSynth)" ]] && needs_synth="0"
 
 function midi_synth() {
     [[ "$needs_synth" != "1" ]] && return
@@ -24,7 +24,7 @@ function midi_synth() {
 
 params=("$@")
 if [[ -z "${params[0]}" ]]; then
-    params=(-c "@MOUNT C /home/loki/RetroPie/roms/pc -freesize 1024" -c "@C:")
+    params=(-c "@MOUNT C /home/dustin/RetroPie/roms/pc -freesize 1024" -c "@C:")
 elif [[ "${params[0]}" == *.sh ]]; then
     midi_synth start
     bash "${params[@]}"
@@ -35,6 +35,9 @@ elif [[ "${params[0]}" == *.conf ]]; then
 else
     params+=(-exit)
 fi
+
+# fullscreen when running in X
+[[ -n "$DISPLAY" ]] && params+=(-fullscreen)
 
 midi_synth start
 "/opt/retropie/emulators/dosbox/bin/dosbox" "${params[@]}"

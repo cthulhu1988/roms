@@ -1,0 +1,426 @@
+//
+//
+//	==THIS IS THE LOCALIZATION-FRIENDLY "STRINGS" FILE==
+//	========USED BY INSTALLSHIELD AND SPLASH.EXE========
+//
+//
+//	INSTRUCTIONS:
+//
+//	* Any line that starts with a // (double front slash) is
+//	  ignored (commented) by Splash.exe and InstallShield.
+//
+//	* The commented lines (this one included) are there only
+//	  to assist the person who edits this file.
+//
+//	* LEAVE NO BLANK LINES.  Every line MUST be commented
+//	  unless it is to be read and interpreted by Splash.exe
+//	  and InstallShield.
+//
+//	* DO NOT ADD/DELETE ANY LINES.  You may only alter existing
+//	  lines.  If an extra string is needed, contact Cross
+//	  Production.
+//
+//	* DO NOT CHANGE THE ORDER OF ANY LINES.
+//
+//	* DO NOT ADD NUMBERS TO THE BEGINNINGS OF LINES.
+//
+//	* THIS DOCUMENT MUST BE SAVED AS A .TXT FILE.
+//
+//	* Max string length = 1024.
+//
+//
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+//
+//	szFontName
+//	This is here so that we can easily change the font used in
+//	our home-made dialog boxes.
+//
+Q2DemoFont
+////////////////////////////////////////////////////////////////////
+//
+//	szCompanyName
+//	After installation, this ends up as a registry key directly
+//	under the HKEY_LOCAL_MACHINE/SOFTWARE key.
+//
+Activision
+////////////////////////////////////////////////////////////////////
+//
+//	szAppName
+//	After installation, this ends up as a registry key directly
+//	under the HKEY_LOCAL_MACHINE/SOFTWARE/szCompanyName key.
+//	This also ends up as the program folder icon name for the
+//	main executable.
+//
+Quake II Demo
+////////////////////////////////////////////////////////////////////
+//
+//	szRootDir
+//	The default "install to" path in InstallShield will be
+//	\szRootDir.
+//
+Q2Demo
+////////////////////////////////////////////////////////////////////
+//
+//	szFTPReference
+//	The game updater uses this to recognize this game.
+//
+Q2DW95
+////////////////////////////////////////////////////////////////////
+//
+//	szProgramExecutable
+//	This is the actual name of the main executable program.
+//
+Quake2.exe
+////////////////////////////////////////////////////////////////////
+//
+//	szProductKey
+//	After installation, this ends up as a registry key directly
+//	under the HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/
+//	CurrentVersion/App Paths key.
+//	In some cases, this is the same as szProgramExecutable.
+//
+Quake2Demo_exe
+////////////////////////////////////////////////////////////////////
+//
+//	szProductVersion
+//	After installation, this ends up as a registry key directly
+//	under the HKEY_LOCAL_MACHINE/SOFTWARE/szCompanyName/
+//	szAppName key.
+//
+1.0
+////////////////////////////////////////////////////////////////////
+//
+//	szProgramFolderName
+//	This is what gets put into the Windows95 Taskbar Start Menu.
+//	In other words, after installation there will be a folder
+//	called Windows\Start Menu\Programs\szProgramFolderName.
+//
+Quake II Demo
+Quake II Demo
+Quake II Demo - Compatibility Mode
++set vid_ref soft +set vid_fullscreen 0 +set sw_mode 0 +set s_wavonly 1
+Run Dedicated Server
++set deathmatch 1 +set dedicated 1
+Quake II Manual
+Quake II Demo Readme
+Uninstall Quake II Demo
+Quake II Demo Release Notes
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	szUninstallName
+//	This is what shows up in the Add/Remove Programs list box
+//	located in the control panel after installation.
+//
+Quake II Demo
+////////////////////////////////////////////////////////////////////
+//
+//	szUninstallKey
+//	After installation, this ends up as a registry key directly
+//	under the HKEY_LOCAL_MACHINE/SOFTWARE/Microsoft/Windows/
+//	CurrentVersion/Uninstall key.
+//
+Quake2DemoUninstallKey
+////////////////////////////////////////////////////////////////////
+//
+//	szAppWindowName
+//	To find out what this should be, run the game and press
+//	Ctrl-Alt-Delete.  The game's window name will show in the
+//	list box.  This variable is used to prevent Splash.exe from
+//	running when the game is already running.
+//
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	szAppWindowClass
+//	This is similar to szAppWindowName.  Ask the Game's
+//	developers what they called the game's window class or use
+//	Spy++.  This is also used to detect if the games is running.
+//
+Quake II Demo
+////////////////////////////////////////////////////////////////////
+//
+//	szSplashScreenName
+//	This is the name of the window and the window class of the
+//	splash screen.  This string shows up in the Ctrl-Alt-Delete
+//	dialog box when the splash screen is running.
+//
+Quake II Demo Splash Screen
+////////////////////////////////////////////////////////////////////
+//
+//	sz16ColorWarning
+//	This is self-explanatory.
+//
+Quake II Demo does not support 16-color mode.
+////////////////////////////////////////////////////////////////////
+//
+//	szMovieWarning
+//	This is displayed to the user's system is in 256-color mode
+//	and attempts to play a high-color movie.
+//
+In order to play this movie, your system must be in 16-bit color mode or higher.  Please change your system's color mode and then restart Splash.
+////////////////////////////////////////////////////////////////////
+//
+//	szFindBitmapWarning
+//	This is displayed to the user if there is an error (for
+//	whatever reason) loading a bmp from the disk.
+//
+Unable to load a necessary bitmap.  Check the desktop for an error log.
+////////////////////////////////////////////////////////////////////
+//
+//	szOutOfMemoryWarning
+//	This is displayed to the user whenever a call to "malloc"
+//	or "new" fails.
+//
+Unable to allocate enough RAM.
+////////////////////////////////////////////////////////////////////
+//
+//	szFindBrowserWarning
+//	This is displayed to the user if a web button is pressed and
+//	neither Netscape nor IExplore is found on their system.
+//
+Sorry, Splash was unable to find an appropriate web browser to perform this action.
+////////////////////////////////////////////////////////////////////
+//
+//	szInformation
+//	The localized translation of the word "Information."
+//
+Information
+////////////////////////////////////////////////////////////////////
+//
+//	DirectX Dialog Box Strings.
+//	Displayed when the user does not have DirectX installed.
+//
+Microsoft DirectX 5 was not detected on your system.
+Some of the software only, full-screen video modes in Quake II are only available if you install DirectX. These drivers may not be compatible with some video cards and certain display modes.
+DirectX 5 will be installed over your existing video card drivers and any previous versions of DirectX, after which you may be instructed to restart your computer.
+If you need to install DirectX, you can download the latest version from Microsoft's web site, www.microsoft.com.
+For more information on DirectX 5 and answers to questions regarding your hardware's compatibility please click the Help button below.
+////////////////////////////////////////////////////////////////////
+// directX Dialog box strings for the wolf demo:
+//
+Microsoft DirectX 5 was not detected on your system.
+Some of the software only, full-screen video modes in Quake II are only available if you install DirectX. These drivers may not be compatible with some video cards and certain display modes.
+DirectX 5 will be installed over your existing video card drivers and any previous versions of DirectX, after which you may be instructed to restart your computer.
+If you do not want to install DirectX 5 or you believe that DirectX 5 is incompatible with your hardware, please click the Cancel button below to skip the DirectX install process.
+For more information on DirectX 5 and answers to questions regarding your hardware's compatibility please click the Help button below.
+/////////////////////////////////////////////////////////////////////
+If you experience problems with DirectX, please contact Microsoft at:
+Microsoft Customer Sales and Service
+One Microsoft Way
+Redmond, WA  98052-6399, USA
+Call 1-800-426-9400, in the US
+Call +1-206-882-8080 outside the United States
+Click OK to continue installing DirectX 5.  Click Cancel to cancel DirectX 5 installation.
+DirectX 5 was successfully installed.
+DirectX 5 was successfully installed.  You will need to restart you computer before playing Quake II Demo.
+Please insert the Quake II Demo CD in your CDROM drive.  Click OK when ready.
+////////////////////////////////////////////////////////////////////
+//
+//	About Activision screen strings.
+//	Displayed when the user presses the About Activision Button.
+//
+CUSTOMER SUPPORT
+United States: (310) 255-2050
+Australia: 1902-962-000
+Internet: http://www.activision.com
+America Online: Keyword: Activision
+Customer BBS: (310) 255-2146 [8,N,1]
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	Welcome Dialog Box Strings
+//	Displayed on the InstallShield Welcome dialog box.
+//
+Welcome to the Quake II Demo Setup program.
+This program will install the Quake II Demo on your computer.
+It is strongly recommended that you exit all Windows programs before running this Setup program.
+Click Cancel to quit Setup and then close any programs you have running. Click Next to continue with the Setup program.
+WARNING: This program is protected by copyright law and international treaties.
+Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under law.
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	SetupType Dialog Box Strings
+//	Displayed on the InstallShield SetupType dialog box.  Note:
+//	The install sizes (in MB) are given below and are substituted
+//	into their respective descriptions wherever there is a %u.
+//
+Please choose an install size by selecting either CD, Normal, or Maximum.
+25
+The CD install requires %u MB of uncompressed hard disk space.
+220
+The Normal install requires %u MB of uncompressed hard disk space.
+50
+The Maximum install requires %u MB of uncompressed hard disk space.
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	AskDestPath Dialog Box Strings
+//	Displayed on the InstallShield AskDestPath dialog box.
+//
+The Quake II Demo will be installed into the following directory.
+To install to this directory, click Install.
+To install to a different directory, click the Change Directory button below and select a different directory.
+You can choose not to install the Quake II Demo by clicking Cancel to exit Setup.
+The current destination drive contains insufficient disk space.  Please choose a different directory.
+Copying Quake II Demo program files...
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	Finish Dialog Box Strings
+//	Displayed on the InstallShield Finish dialog box.
+//
+Installation is now complete.
+Click Finish to exit setup and begin the Quake II Demo.
+Before playing the Quake II Demo you must restart your computer.  Click Restart to restart your computer now or click Finish to exit Setup.
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	InstallShield warnings.
+//	Displayed when the user's system is missing one or more of
+//	the game's system requirements.
+//
+The following requirement(s) were not detected on your system.  Click Help for more information on the Quake II Demo's system requirements or click Install to continue with the installation.
+Windows95 or WindowsNT operating system
+Pentium 90 MHz processor or better
+16 MB of RAM or more
+256-color capability or better
+1 MB of Video RAM or more
+2X CDROM drive or better
+4X CDROM drive or better
+<ignored>
+////////////////////////////////////////////////////////////////////
+//
+//	More InstallShield error messages.
+//
+Quake II Demo requires a 32-bit operating system to install.
+The following error occurred during the move data process :
+UnInstaller setup failed to initialize.  You may not be able to uninstall this product.
+Would you like to quit the Quake II Demo Setup process?
+The Quake II Demo Setup process has been terminated. 
+This version of Quake II Demo will not install on this language version of Windows 95/NT. To find out if a version localized for your operating system is available for purchase, please contact your local Activision office.
+////////////////////////////////////////////////////////////////////
+//
+//	Extra strings.
+//
+You cannot uninstall that which is not installed.
+INCOMING MESSAGE FROM TCM MARINE COMMANDANT JAMES:
+We have cleared the interplanetary gateway between Earth and Stroggos.  In exactly three hours operation Alien Overlord will commence.
+As I speak to you, your pods are being fueled and all systems brought online.  Activate your field computers.  The following intel brief will provide you with your military objectives, terrain information, arsenal and equipment details, and enemy analysis.\nNever before has there been a greater challenge to life, liberty, and civilization.  This is a crusade in which we will accept nothing less than victory.  No matter how long it may take us to overcome the Strogg's barbaric assault, the people of Earth in their righteous might will win through to absolute victory.  Today we will make very certain that this form of barbaric treachery shall never endanger us again.  With confidence in you, and with the unbending determination of our people, we will gain the inevitable triumph - so help us God.
+So go forth and kick ass, soldiers!
+Exiting...
+http://www.activision.com
+http://www.idsoftware.com
+<ignored>
+<ignored>
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+//
+//	====BELOW ARE SOME OF THE SYMOBLS THAT MAY BE NEEDED====
+//	==========FOR YOUR COPY-N-PASTING PLEASURES=============
+//
+//	ASCII Value	Symbol
+//	161		¡
+//	162		¢
+//	163		£
+//	164		¤
+//	165		¥
+//	166		¦
+//	167		§
+//	168		¨
+//	169		©
+//	170		ª
+//	171		«
+//	172		¬
+//	173		­
+//	174		®
+//	175		¯
+//	176		°
+//	177		±
+//	178		²
+//	179		³
+//	180		´
+//	181		µ
+//	182		¶
+//	183		·
+//	184		¸
+//	185		¹
+//	186		º
+//	187		»
+//	188		¼
+//	189		½
+//	190		¾
+//	191		¿
+//	192		À
+//	193		Á
+//	194		Â
+//	195		Ã
+//	196		Ä
+//	197		Å
+//	198		Æ
+//	199		Ç
+//	200		È
+//	201		É
+//	202		Ê
+//	203		Ë
+//	204		Ì
+//	205		Í
+//	206		Î
+//	207		Ï
+//	208		Ð
+//	209		Ñ
+//	210		Ò
+//	211		Ó
+//	212		Ô
+//	213		Õ
+//	214		Ö
+//	215		×
+//	216		Ø
+//	217		Ù
+//	218		Ú
+//	219		Û
+//	220		Ü
+//	221		Ý
+//	222		Þ
+//	223		ß
+//	224		à
+//	225		á
+//	226		â
+//	227		ã
+//	228		ä
+//	229		å
+//	230		æ
+//	231		ç
+//	232		è
+//	233		é
+//	234		ê
+//	235		ë
+//	236		ì
+//	237		í
+//	238		î
+//	239		ï
+//	240		ð
+//	241		ñ
+//	242		ò
+//	243		ó
+//	244		ô
+//	245		õ
+//	246		ö
+//	247		÷
+//	248		ø
+//	249		ù
+//	250		ú
+//	251		û
+//	252		ü
+//	253		ý
+//	254		þ
+//	255		ÿ
+//
+////////////////////////////////////////////////////////////////////
+//
+//	=======DO NOT ALTER ANYTHING BELOW THIS LINE=======
+//	====THIS IS THE LAST LINE OF THE "STRINGS" FILE====

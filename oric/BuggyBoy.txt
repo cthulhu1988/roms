@@ -1,0 +1,142 @@
+========================================
+      BUGGY BOY - PARTY VERSION
+========================================
+      AN ORIC (1 or ATMOS) DEMO
+========================================
+  Release date: Wednesday the 4th 2004
+========================================
+   _______
+ _|       |
+|    _   _|
+|   '-' | |___e_f_e_n_c_e
+|_________|
+|         |
+|  _______|
+|   ___/______o_r_c_e
+|__|
+
+========================================
+About this demo:
+========================================
+This is the Oric demo that won (well the demo was alone in its category, so
+that makes things easier) the "Other Computers" demo compo at the "Little 
+Computer People" party in August 2004, in Linköping/Sweden.
+
+
+========================================
+How to run it on a real Oric:
+========================================
+You need to get an Oric 1 or Oric Atmos with a Microdisc or Cumana unit to 
+get this demo running at all.
+
+Just create a real floppy using "WriteDSK" with the .DSK file, and boot it.
+
+
+========================================
+How to run it with an emulator:
+========================================
+This is really easy if you are running one of the Windows versions since a PC
+emulator is included. If you use linux, beos or whatever else, you will 
+have to find an emulator for your operating system.
+
+For Windows users:
+
+1) First, you need to be sure that this archive has been correctly unpacked.
+If everything is right, you should have three files (two batch files and the
+one you are currently reading) and a "data" folder.
+
+2) Run the "LAUNCH.BAT" file. 
+This will run the emulator and then the demo automatically.
+
+3) Just look and appreciate. At the end, when you see the black screen, 
+just press F10 to quit the emulator.
+
+
+
+* Special note for Windows XP users *
+
+If the sound is very crappy, you should probably install VDMS, so read the
+part about Windows NT/2000 :)
+
+
+* Special note for Windows NT/2000 Users *
+
+Since Euphoric is a DOS emulator, it has some troubles with Windows NT kernel
+because the sound card detection is not working very well. Anyway, there are
+two solutions in your case:
+
+1) Instead of running "LAUNCH.BAT" use "LAUNCH_NOSOUND.BAT". 
+Since the music is quite good (for an oric), it would be a shame to watch the
+demo like this, but at least it will work.
+I advise you to choose the second solution:
+
+2) Install VDMS. It's a kind of "sound blaster emulator" specially made to
+solve this kind of trouble. Simply download and install the last version of
+VDMS (here: https://sourceforge.net/projects/vdmsound/). 
+After the installation, you will have a new option in the right click 
+contextual menu. So, click on "LAUNCH.BAT", and choose "RUN WITH VDMS". And it's
+magic, this will create a virtual sound blaster, Euphoric will be happy,
+and so you will be able to watch this demo with music :) Pump up the volume !
+
+
+========================================
+The people behind it:
+========================================
+graphics: 
+* Mermaid/Creators^Scoopex
+* Dbug
+
+music: 
+* Dma-SC/Sector One
+* Twilighte
+
+code: 
+* Dbug 
+
+
+
+========================================
+To contact us:
+========================================
+Mermaid
+	- mermaid_ctr@yahoo.co.uk
+	- http://mermaid.c64scene.org
+	
+Dma-sc
+	- dma-sc@atari.org
+	- http://sectorone.atari.org
+
+Twilighte
+	- arc@twilighte.freeserve.co.uk
+	- http://twilighte.oric.org
+	
+Dbug
+	- dbug@defence-force.org
+	- http://www.defence-force.org
+	- http://www.defence-force.org/computing/oric/index.htm
+
+irc:
+	#oric on IRCnet 
+
+	
+Other Defence Force Oric productions:
+-------------------------------------
+Barbitoric - Made for Alternative Party 2003 (Finland):
+- http://www.pouet.net/prod.php?which=8558
+
+Assembly 2002 invtro - Made for Assembly 2002 (Finland):
+- http://www.pouet.net/prod.php?which=6977
+
+Quintessential - Released at the VIP4 (FRANCE) demo party in 2003:
+- http://www.pouet.net/prod.php?which=6864
+
+Oric Giga Demo - Released at the VIP3 (FRANCE) demo party in 2002:
+- http://www.pouet.net/prod.php?which=3102
+
+STNICCC C64 Revisited - Released at the STNICCC 2000 (HOLLAND) demo party in 2000:
+- http://www.pouet.net/prod.php?which=3105	
+	
+Just Oric - Released at the Volcanic 4 (FRANCE) in 1997
+- http://www.pouet.net/prod.php?which=3131
+
+ 

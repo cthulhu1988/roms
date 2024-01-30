@@ -1,0 +1,143 @@
+========================================
+      BARBITORIC - FINAL VERSION
+========================================
+      AN ORIC (1 or ATMOS) DEMO
+========================================
+  Release date: January the 13th 2003
+========================================
+   _______
+ _|       |
+|    _   _|
+|   '-' | |___e_f_e_n_c_e
+|_________|
+|         |
+|  _______|
+|   ___/______o_r_c_e
+|__|
+ _________
+|  ___    |
+| |   \___|___o_n_d_e_n_s_e
+|         |
+|_________|           
+
+
+========================================
+About this demo:
+========================================
+This is the Oric demo that won (well we were the only ones in the OldSkool 
+compo) the OldSkool compo at the "State of the Art" in décember 2002.
+It was presented again with more than 50% new content (new music, new graphics,
+new effects, ...) at the "Alternative Party" in January 2003 where it reached
+the second place among 25 other demos.
+
+
+
+========================================
+How to run it:
+========================================
+This is really easy if you are running one of Windows versions since a PC
+emulator is included. If you use linux, beos or whatever else, you will 
+have to find an emulator for you operating system.
+
+For windows users:
+
+1) First, you need to be sure that the files are in one single folder called
+"BARBITORIC" that is located at the root of the "C:" drive. If it's not the
+case, it will not run. This version of the emulator is stripped down to a
+minimum, if you want to install it somewhere else, you'll have to change the
+path references in the "euphoric.ini" and "r.bat" files.
+
+2) Run the "C:\BARBITORIC\R.BAT" file. 
+This will run the emulator, press any key after the detection of devices,
+and look at the emulator boot on the DSK file.
+
+3) Just look and appreciate. At the end, the demo is turning in infinite loop, 
+so just press F10 to quit the emulator.
+
+
+Special note for Windows NT/2000 Users !
+
+Since Euphoric is a DOS emulator, it has some troubles with Windows NT kernel
+because the sound card detection is not working very well. Anyway, there are
+two solutions in your case:
+
+1) Instead of running "R.BAT" use "NOSOUND.BAT". It would be dommageable
+because this is the _first_ oric demo with sound, and actually it's a very
+good sound, with sound chip music and sampled sound. I advice you to choose 
+the second solution:
+
+2) Install VDMS. It's a kind of "sound blaster emulator" specially made to
+solve this kind of trouble. Simply download and install the last version of
+VDMS (here: https://sourceforge.net/projects/vdmsound/). 
+After the installation, you will have a new option in the right click 
+contextual menu. So, click on "R.BAT", and choose "RUN WITH VDMS". And it's
+magic, this will create a virtual sound blaster, euphoric will be happy,
+and so you will be able to watch this demo with music :) Pump up the volume !
+
+
+========================================
+The people behind it:
+========================================
+graphic: 
+* Alice
+* Dahan
+* Dbug
+* MooZ
+* Prez
+* Romu
+* Twilighte
+
+music: 
+* Twilighte
+
+code: 
+* Dbug 
+* Excess
+* Jede
+* Jylam
+* Romu
+
+nfo:
+* MooZ
+
+
+
+========================================
+To contact us:
+========================================
+Jede 
+	- jede@oric.org
+	- http://www.oric.org
+	
+Twilighte
+	- arc@twilighte.freeserve.co.uk
+	- http://twilighte.oric.org
+	
+Dbug
+	- dbug@defence-force.org
+	- http://www.defence-force.org
+	- http://www.defence-force.org/computing/oric/index.htm
+
+irc:
+	#oric on irc.oric.org 
+
+	
+Other Defence Force Oric productions:
+-------------------------------------
+Assembly 2002 invtro - Made for Assembly 2002 (Finland):
+- http://www.pouet.net/prod.php?which=6977
+
+Quintessential - Released at the VIP4 (FRANCE) demo party in 2003:
+- http://www.pouet.net/prod.php?which=6864
+
+Oric Giga Demo - Released at the VIP3 (FRANCE) demo party in 2002:
+- http://www.pouet.net/prod.php?which=3102
+
+STNICCC C64 Revisited - Released at the STNICCC 2000 (HOLLAND) demo party in 2000:
+- http://www.pouet.net/prod.php?which=3105	
+	
+Just Oric - Released at the Volcanic 4 (FRANCE) in 1997
+- http://www.pouet.net/prod.php?which=3131
+
+ 
+ 

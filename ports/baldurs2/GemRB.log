@@ -1,0 +1,30 @@
+[Core]: GemRB Core Initialization...
+[Core]: Initializing Video Driver...
+[SDL 2 Driver]: Creating display
+[SDL 2 Driver]: Creating Main Surface: w=640 h=480 fmt=SDL_PIXELFORMAT_ABGR8888
+[Core]: Initializing Search Path...
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/override (Override)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/sounds (Sounds)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/scripts (Scripts)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/portraits (Portraits)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data (Data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/Data (Data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/data (CD1/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/CD2/data (CD2/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/CD2/data (CD2/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/CD3/data (CD3/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/CD3/data (CD3/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/CD4/data (CD4/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/CD4/data (CD4/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/CD5/data (CD5/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/CD5/data (CD5/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/CD6/data (CD6/data)
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/data/CD6/data (CD6/data)
+[Core]: Initializing KEY Importer...
+[KEYImporter]: Opening /home/loki/RetroPie/roms/ports/baldurs2/chitin.key...
+[KEYImporter/ERROR]: Cannot open Chitin.key
+[KeyImporter/ERROR]: This means you set the GamePath config variable incorrectly.
+[KeyImporter/ERROR]: It must point to the directory that holds a readable Chitin.key
+[ResourceManager/WARNING]: Invalid path given: /home/loki/RetroPie/roms/ports/baldurs2/chitin.key (chitin.key)
+[Core/FATAL]: Failed to load "chitin.key"
+[Main]: Aborting due to fatal error...
